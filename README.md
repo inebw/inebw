@@ -34,16 +34,158 @@
 
 ## 🚀 Featured Projects
 
-| Project                                                                                                                                                                      | Description                                                                                                                           | Tech Highlights                                                  |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------- |
-| **[Odin Book](https://odin-book-ten.vercel.app/)**<br/>[`Frontend`](https://github.com/inebw/odin-book) • [`Backend`](https://github.com/inebw/odin-book-api)                | **Social Media Platform**<br/>A full-featured social network with real-time messaging, notifications, and complex user relationships. | Socket.io • Polymorphic Relations (Prisma) • JWT Auth            |
-| **[Cloud Space](https://file-uploader-ntlc.onrender.com)**<br/>[`Source Code`](https://github.com/inebw/file-uploader)                                                       | **Personal Cloud Storage**<br/>A Google Drive–style app with unlimited nested folders and uploads.                                    | Recursive Data Structures • Session Persistence • Stream Uploads |
-| **[Sermo](https://messenger-inky-kappa.vercel.app)**<br/>[`Frontend`](https://github.com/inebw/messenger) • [`Backend`](https://github.com/inebw/messenger-api)              | **Instant Messenger**<br/>Live chat with private rooms, presence tracking, and message history.                                       | WebSockets • Room-based Messaging • Presence Tracking            |
-| **[Rick & Morty Memory](https://rick-morty-memory-card.netlify.app/)**<br/>[`Source Code`](https://github.com/inebw/memory-card)                                             | **Memory Game**<br/>API-driven React game with dynamic shuffling logic.                                                               | React Hooks • O(1) State Tracking • Fisher–Yates Shuffle         |
-| **[Where's Waldo](https://wheres-waldo.inebw.online/)**<br/>[`Frontend`](https://github.com/inebw/wheres-waldo) • [`Backend`](https://github.com/inebw/wheres-waldo-backend) | **Photo Tagging Game**<br/>Race-against-time puzzle with leaderboard support.                                                         | Coordinate Validation • Global Leaderboards • REST APIs          |
-| **[Battleship](https://inebw.github.io/battleship/)**<br/>[`Source Code`](https://github.com/inebw/battleship)                                                               | **Strategy Game**<br/>Classic Battleship with smart AI and clean UI.                                                                  | Game State Logic • Vanilla JS • AI Decision Flow                 |
+<br/>
 
----
+<!-- PROJECT GRID -->
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### 📘 Odin Book
+
+**Social Media Platform**
+
+<a href="https://odin-book-ten.vercel.app/">
+  <img src="https://raw.githubusercontent.com/inebw/odin-book/main/preview.png" alt="Odin Book Preview"/>
+</a>
+
+**Highlights**
+
+- Real-time messaging & notifications
+- Complex user relationships
+- Secure JWT authentication
+
+**Tech**
+`Node.js` · `Express` · `PostgreSQL` · `Prisma` · `Socket.io`
+
+🔗 [Live](https://odin-book-ten.vercel.app/) • [Frontend](https://github.com/inebw/odin-book) • [Backend](https://github.com/inebw/odin-book-api)
+
+</td>
+
+<td width="50%" valign="top">
+
+### ☁️ Cloud Space
+
+**Personal Cloud Storage**
+
+<a href="https://file-uploader-ntlc.onrender.com">
+  <img src="https://raw.githubusercontent.com/inebw/file-uploader/main/preview.png" alt="Cloud Space Preview"/>
+</a>
+
+**Highlights**
+
+- Unlimited nested directories
+- Session-secured uploads
+- File type previews
+
+**Tech**
+`Node.js` · `Express` · `PostgreSQL` · `Prisma` · `Supabase`
+
+🔗 [Live](https://file-uploader-ntlc.onrender.com) • [Code](https://github.com/inebw/file-uploader)
+
+</td>
+
+</tr>
+<tr>
+
+<td width="50%" valign="top">
+
+### 💬 Sermo
+
+**Real-Time Messenger**
+
+<a href="https://messenger-inky-kappa.vercel.app">
+  <img src="https://raw.githubusercontent.com/inebw/messenger/main/preview.png" alt="Sermo Preview"/>
+</a>
+
+**Highlights**
+
+- 1-on-1 private chat rooms
+- Live online/offline presence
+- Persistent message history
+
+**Tech**
+`React` · `Socket.io` · `Node.js` · `Prisma` · `PostgreSQL`
+
+🔗 [Live](https://messenger-inky-kappa.vercel.app) • [Frontend](https://github.com/inebw/messenger) • [Backend](https://github.com/inebw/messenger-api)
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🕵️ Where’s Waldo
+
+**Photo Tagging Game**
+
+<a href="https://wheres-waldo.inebw.online">
+  <img src="https://raw.githubusercontent.com/inebw/wheres-waldo/main/preview.png" alt="Where's Waldo Preview"/>
+</a>
+
+**Highlights**
+
+- Coordinate-based click validation
+- Global leaderboards
+- Millisecond-precision timer
+
+**Tech**
+`React` · `Express` · `Prisma` · `PostgreSQL`
+
+🔗 [Live](https://wheres-waldo.inebw.online) • [Frontend](https://github.com/inebw/wheres-waldo) • [Backend](https://github.com/inebw/wheres-waldo-backend)
+
+</td>
+
+</tr>
+<tr>
+
+<td width="50%" valign="top">
+
+### 🧠 Rick & Morty Memory Card Game
+
+**Memory Game**
+
+<a href="https://rick-morty-memory-card.netlify.app/">
+  <img src="https://raw.githubusercontent.com/inebw/memory-card/main/preview.png" alt="Memory Game Preview"/>
+</a>
+
+**Highlights**
+
+- API-driven gameplay
+- Shuffle on every interaction
+- Efficient state tracking
+
+**Tech**
+`React` · `Hooks` · `REST API`
+
+🔗 [Live](https://rick-morty-memory-card.netlify.app/) • [Code](https://github.com/inebw/memory-card)
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🚢 Battleship
+
+**Strategy Game (Vanilla JS)**
+
+<a href="https://inebw.github.io/battleship/">
+  <img src="https://raw.githubusercontent.com/inebw/battleship/main/preview.png" alt="Battleship Preview"/>
+</a>
+
+**Highlights**
+
+- Smart AI opponent
+- Turn-based logic
+- Clean, responsive UI
+
+**Tech**
+`JavaScript` · `HTML` · `CSS`
+
+🔗 [Live](https://inebw.github.io/battleship/) • [Code](https://github.com/inebw/battleship)
+
+</td>
+
+</tr>
+</table>
 
 ## 📈 GitHub Stats
 
